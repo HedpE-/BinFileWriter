@@ -10,13 +10,20 @@ C# Class to read/write files in binary with choosen ecnryption
 
 	bfw.initClass(object obj,string filePath,int pathType, int encryptType, string encryptKey, int fileEncryptType, int maxRecords);
 
-object obj					- Type of Object to write (An array of this type will be created)
-string filePath			- Path to read/write file
-int pathType				- Path type (0 - Hard Disk 1 - Shared Drive 2 - HTTP 3 - HTTPS 4 - FTP 5 - SFTP)
-int encryptType			- Key encryption type
-string encryptKey		- Key to encrypt file
-int fileEncryptType	- File encryption type (0 - DES 1 - AES)
-int maxRecords			- Max records, used to instantiate the array of objects
+# object obj					
+Type of Object to write (An array of this type will be created)
+# string filePath			
+Path to read/write file
+# int pathType				
+Path type (0 - Hard Disk 1 - Shared Drive 2 - HTTP 3 - HTTPS 4 - FTP 5 - SFTP)
+# int encryptType			
+Key encryption type
+# string encryptKey		
+Key to encrypt file
+# int fileEncryptType	
+File encryption type (0 - DES 1 - AES)
+# int maxRecords			
+Max records, used to instantiate the array of objects
 
 ## Add data to the array
 	bfw.addTo(object data);
