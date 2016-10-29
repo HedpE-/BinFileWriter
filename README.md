@@ -23,26 +23,22 @@ bfw.addTo(object data);
 
 ## Write array to file
 var result = null;
+
 if(!result = bfw.writeFile())
 	// Error
 	
 ## Read file to array
 var result = null;
+
 if(!result = bfw.readFile())
 	// Error
+	
 else
+	
 	var fileContent = result
 	
 	
 
-## The flow of this class is to create an array of objects with the type defined in object obj in initClass.
-## Then the user should use addTo(object data) to add more records to that array and then use writeFile()
-## to write the array encrypted to a file specifiec in string filePath in iniClass.
-## When using the class to read files, an array is returned with all the objects previous added readFile()
-## the memory array is also set with this content so the user can continue to add objects. Note that for every
-## new record, sizeAlteration(int maxRecords) must be called first to expand the array size, user can expand the
-## array by any size. This method allocates a new array with the specified size, copies elements from the old 
-## array to the new one, and then replaces the old array with the new one. Please note that the running machine
-## should have enought memory to allocate both arrays
+The flow of this class is to create an array of objects with the type defined in object obj in initClass. Then the user should use addTo(object data) to add more records to that array and then use writeFile() to write the array encrypted to a file specific in string filePath in iniClass. When using the class to read files, an array is returned with all the objects previous added readFile() the memory array is also set with this content so the user can continue to add objects. Note that for every new record, sizeAlteration(int maxRecords) must be called first to expand the array size, user can expand the array by any size. This method allocates a new array with the specified size, copies elements from the old array to the new one, and then replaces the old array with the new one. Please note that the running machine should have enought memory to allocate both arrays
 
 
