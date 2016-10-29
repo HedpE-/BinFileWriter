@@ -8,7 +8,7 @@ C# Class to read/write files in binary with choosen ecnryption
 
 ## Set class required parameters
 
-bfw.initClass(object obj,string filePath,int pathType, int encryptType, string encryptKey, int fileEncryptType, int maxRecords);
+	bfw.initClass(object obj,string filePath,int pathType, int encryptType, string encryptKey, int fileEncryptType, int maxRecords);
 
 object obj					- Type of Object to write (An array of this type will be created)
 string filePath			- Path to read/write file
