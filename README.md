@@ -4,7 +4,7 @@ C# Class to read/write files in binary with choosen ecnryption
 ## Add BinFileWriter.dll to project references
 ## Instantiate the Class
 
-var bfw = new BinFileWriter();
+	var bfw = new BinFileWriter();
 
 ## Set class required parameters
 
